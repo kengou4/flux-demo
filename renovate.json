@@ -17,5 +17,43 @@
             "datasourceTemplate": "github-tags"
         }
     ],
+    "packageRules": [
+        {
+            "groupName": "helm-controller",
+            "matchPackageNames": [
+                "fluxcd/helm-controller"
+            ]
+        },
+        {
+            "groupName": "image-automation-controller",
+            "matchPackageNames": [
+                "fluxcd/image-automation-controller"
+            ]
+        },
+        {
+            "groupName": "image-reflector-controller",
+            "matchPackageNames": [
+                "fluxcd/image-reflector-controller"
+            ]
+        },
+        {
+            "groupName": "kustomize-controller",
+            "matchPackageNames": [
+                "fluxcd/kustomize-controller"
+            ]
+        },
+        {
+            "groupName": "notification-controller",
+            "matchPackageNames": [
+                "fluxcd/notification-controller"
+            ]
+        },
+        {
+            "groupName": "source-controller",
+            "matchPackageNames": [
+                "fluxcd/source-controller"
+            ]
+        }
+    ],
     "separateMinorPatch": true
 }
