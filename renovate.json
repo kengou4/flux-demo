@@ -1,3 +1,20 @@
 {
-    "$schema": "https://docs.renovatebot.com/renovate-schema.json"
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "assigneesFromCodeOwners": true,
+    "extends": [
+        "config:recommended"
+    ],
+    "customManagers": [
+        {
+            "description": "Bump flux kustomize version",
+            "fileMatch": [
+                "(?:^|flux/.*/)kustomization\\.ya?ml$"
+            ],
+            "matchStrings": [
+                "github.com.(?<packageName>.*).releases.download.(?<currentValue>.*)/"
+            ],
+            "datasourceTemplate": "github-tags"
+        }
+    ],
+    "separateMinorPatch": true
 }
