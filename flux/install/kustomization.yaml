@@ -19,7 +19,7 @@ images:
     newTag: v1.4.0
   - name: fluxcd/kustomize-controller
     newName: ghcr.io/fluxcd/kustomize-controller
-    newTag: v1.4.0
+    newTag: v1.5.1
   - name: fluxcd/helm-controller
     newName: ghcr.io/fluxcd/helm-controller
     newTag: v1.1.0
