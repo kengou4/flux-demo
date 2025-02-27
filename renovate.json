@@ -21,37 +21,43 @@
         {
             "groupName": "helm-controller",
             "matchPackageNames": [
-                "fluxcd/helm-controller"
+                "fluxcd/helm-controller",
+                "ghcr.io/fluxcd/helm-controller"
             ]
         },
         {
             "groupName": "image-automation-controller",
             "matchPackageNames": [
-                "fluxcd/image-automation-controller"
+                "fluxcd/image-automation-controller",
+                "ghcr.io/fluxcd/image-automation-controller"
             ]
         },
         {
             "groupName": "image-reflector-controller",
             "matchPackageNames": [
-                "fluxcd/image-reflector-controller"
+                "fluxcd/image-reflector-controller",
+                "ghcr.io/fluxcd/image-reflector-controller"
             ]
         },
         {
             "groupName": "kustomize-controller",
             "matchPackageNames": [
-                "fluxcd/kustomize-controller"
+                "fluxcd/kustomize-controller",
+                "ghcr.io/fluxcd/kustomize-controller"
             ]
         },
         {
             "groupName": "notification-controller",
             "matchPackageNames": [
-                "fluxcd/notification-controller"
+                "fluxcd/notification-controller",
+                "ghcr.io/fluxcd/notification-controller"
             ]
         },
         {
             "groupName": "source-controller",
             "matchPackageNames": [
-                "fluxcd/source-controller"
+                "fluxcd/source-controller",
+                "ghcr.io/fluxcd/source-controller"
             ]
         }
     ],
