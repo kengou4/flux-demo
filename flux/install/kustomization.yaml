@@ -16,7 +16,7 @@ transformers:
 images:
   - name: fluxcd/source-controller
     newName: ghcr.io/fluxcd/source-controller
-    newTag: v1.4.0
+    newTag: v1.4.1
   - name: fluxcd/kustomize-controller
     newName: ghcr.io/fluxcd/kustomize-controller
     newTag: v1.4.0
