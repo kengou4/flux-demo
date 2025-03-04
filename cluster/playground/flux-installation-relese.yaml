@@ -9,7 +9,7 @@ spec:
   timeout: 60s
   url: https://github.com/kengou4/flux-demo
   ref:
-    semver: "0.1"
+    semver: "v0.1"
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
