@@ -27,7 +27,7 @@
             ],
             "datasourceTemplate": "github-tags",
             "depNameTemplate": "cloudoperators/greenhouse",
-            "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}"
+            "extractVersionTemplate": "^v(?<version>.*)$"
         }
     ],
     "packageRules": [
