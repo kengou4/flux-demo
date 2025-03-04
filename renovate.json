@@ -20,7 +20,7 @@
             "customType": "regex",
             "description": "Bump flux kustomize version",
             "fileMatch": [
-                "^flux-installation-release\\.ya?ml$"
+                "^.*/.*/flux-installation-relese\\.ya?ml$"
             ],
             "matchStrings": [
                 "#.renovate:.*depName=(?<packageName>.*)\\s*semver:.\"(?<currentValue>.*)\""
