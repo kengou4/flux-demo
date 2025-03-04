@@ -27,7 +27,7 @@
             ],
             "datasourceTemplate": "github-releases",
             "depNameTemplate": "cloudoperators/greenhouse",
-            "versioningTemplate": "semver"
+            "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}"
         }
     ],
     "packageRules": [
