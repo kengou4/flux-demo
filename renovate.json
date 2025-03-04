@@ -25,9 +25,9 @@
             "matchStrings": [
                 "\\s*semver:.\"(?<currentValue>.*)\""
             ],
-            "datasourceTemplate": "github-tags",
+            "datasourceTemplate": "github-releases",
             "depNameTemplate": "cloudoperators/greenhouse",
-            "extractVersionTemplate": "^(?<version>.*)$"
+            "versioningTemplate": "semver"
         }
     ],
     "packageRules": [
