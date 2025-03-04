@@ -26,8 +26,7 @@
                 "\\s*semver:.\"(?<currentValue>.*)\""
             ],
             "datasourceTemplate": "github-releases",
-            "depNameTemplate": "cloudoperators/greenhouse",
-            "extractVersionTemplate": "^(?<version>.*)$"
+            "depNameTemplate": "cloudoperators/greenhouse"
         }
     ],
     "packageRules": [
