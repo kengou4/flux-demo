@@ -15,6 +15,17 @@
                 "github.com.(?<packageName>.*).releases.download.(?<currentValue>.*)/"
             ],
             "datasourceTemplate": "github-tags"
+        },
+        {
+            "customType": "regex",
+            "description": "Bump flux kustomize version",
+            "fileMatch": [
+                "^flux-installation-release\\.ya?ml$"
+            ],
+            "matchStrings": [
+                "#.renovate:.*depName=(?<packageName>.*)\\s*semver:.\"(?<currentValue>.*)\""
+            ],
+            "datasourceTemplate": "github-tags"
         }
     ],
     "packageRules": [
