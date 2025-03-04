@@ -23,9 +23,9 @@
                 "^.*/.*/flux-installation-relese\\.ya?ml$"
             ],
             "matchStrings": [
-                "\\s*semver:.\"(?<currentValue>.*)\""
+                "\\s*tag:.\"(?<currentValue>.*)\""
             ],
-            "datasourceTemplate": "github-releases",
+            "datasourceTemplate": "github-tags",
             "depNameTemplate": "cloudoperators/greenhouse",
             "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}"
         }
@@ -74,6 +74,5 @@
             ]
         }
     ],
-    "separateMinorPatch": true,
-    "pinDigests": false
+    "separateMinorPatch": true
 }
