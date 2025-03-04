@@ -10,7 +10,7 @@ spec:
   url: https://github.com/kengou4/flux-demo
   ref:
     # renovate: datasource=github-releases depName=cloudoperators/greenhouse
-    semver: "v0.0.1"
+    semver: "v0.0.0-alpha.1"
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
