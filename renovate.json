@@ -28,7 +28,6 @@
             "datasourceTemplate": "github-releases",
             "depNameTemplate": "cloudoperators/greenhouse",
             "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}",
-            "pinDigests": false
         }
     ],
     "packageRules": [
@@ -75,5 +74,6 @@
             ]
         }
     ],
-    "separateMinorPatch": true
+    "separateMinorPatch": true,
+    "pinDigests": false
 }
