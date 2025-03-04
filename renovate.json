@@ -23,9 +23,11 @@
                 "^.*/.*/flux-installation-relese\\.ya?ml$"
             ],
             "matchStrings": [
-                "#.renovate:.*depName=(?<packageName>.*)\\s*semver:.\"(?<currentValue>.*)\""
+                "\\s*semver:.\"(?<currentValue>.*)\""
             ],
-            "datasourceTemplate": "github-tags"
+            "datasourceTemplate": "github-releases",
+            "depNameTemplate": "cloudoperators/greenhouse",
+            "extractVersionTemplate": "^(?<version>.*)$"
         }
     ],
     "packageRules": [
