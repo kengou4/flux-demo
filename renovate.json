@@ -23,7 +23,7 @@
                 "^.*/.*/flux-installation-relese\\.ya?ml$"
             ],
             "matchStrings": [
-                "\\s*tag:.\"(?<currentValue>.*)\""
+                "\\s*ref.*\\s*tag.*\"(?<currentValue>.?(?:\\d+\\.){0,2}\\d+)"
             ],
             "datasourceTemplate": "github-tags",
             "depNameTemplate": "cloudoperators/greenhouse",
