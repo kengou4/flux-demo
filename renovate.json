@@ -25,7 +25,8 @@
             "matchStrings": [
                 "# renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)(versioning=(?<versioning>.*?))\\s*tag:.\"(?<currentValue>.*)\""
             ],
-            "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}"
+            "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}",
+            "datasourceTemplate": "docker"
         }
     ],
     "packageRules": [
