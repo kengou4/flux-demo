@@ -25,10 +25,8 @@
             "matchStrings": [
                 "\\s*ref.*\\s*tag.*\"(?<currentValue>.?(?:\\d+\\.){0,2}\\d+)"
             ],
-            "datasourceTemplate": "github-tags",
-            "depNameTemplate": "cloudoperators/greenhouse",
-            "packageNameTemplate": "github.com/cloudoperators/greenhouse",
-            "extractVersionTemplate": "^v(?<version>.*)$"
+            "datasourceTemplate": "github-releases",
+            "depNameTemplate": "cloudoperators/greenhouse"
         }
     ],
     "packageRules": [
