@@ -7,7 +7,6 @@
     "flux": {
         "fileMatch": ["^.*/.*/flux-installation-relese\\.ya?ml$"]
     },
-    "ignoreUnstable": false,
     "customManagers": [
         {
             "customType": "regex",
@@ -22,6 +21,13 @@
         }
     ],
     "packageRules": [
+        {
+            "groupName": "flux-installation",
+            "matchPackageNames": [
+                "cloudoperators/greenhouse"
+            ],
+            "ignoreUnstable": false
+        },
         {
             "groupName": "helm-controller",
             "matchPackageNames": [
