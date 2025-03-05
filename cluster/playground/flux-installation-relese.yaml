@@ -2,7 +2,7 @@
 apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
-  name: flux-repo
+  name: greenhouse
   namespace: default
 spec:
   interval: 5m0s
@@ -21,7 +21,7 @@ spec:
   interval: 10m
   sourceRef:
     kind: GitRepository
-    name: flux-repo
+    name: greenhouse
   path: "./flux/install"
   prune: true
   timeout: 1m
