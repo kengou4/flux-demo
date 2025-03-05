@@ -25,7 +25,7 @@
             "matchStrings": [
                 "# renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)\\s*tag:.\"(?<currentValue>.*)\""
             ],
-            "versioningTemplate": "git",
+            "versioningTemplate": "semver-coerced",
             "datasourceTemplate": "github-releases"
         }
     ],
