@@ -4,6 +4,9 @@
     "extends": [
         "config:recommended"
     ],
+    "cacheTtlOverride": {
+        "datasource-gitlab-releases": 1
+    },
     "customManagers": [
         {
             "customType": "regex",
