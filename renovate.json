@@ -23,9 +23,9 @@
                 "^.*/.*/flux-installation-relese\\.ya?ml$"
             ],
             "matchStrings": [
-                "# renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)(versioning=(?<versioning>.*?))\\s*tag:.\"(?<currentValue>.*)\""
+                "# renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)\\s*tag:.\"(?<currentValue>.*)\""
             ],
-            "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}",
+            "versioningTemplate": "git",
             "datasourceTemplate": "github-releases"
         }
     ],

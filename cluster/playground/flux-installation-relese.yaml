@@ -9,7 +9,7 @@ spec:
   timeout: 60s
   url: https://github.com/kengou4/flux-demo
   ref:
-    # renovate: datasource=github-tags depName=cloudoperators/greenhouse versioning=semver-coerced
+    # renovate: datasource=github-tags depName=cloudoperators/greenhouse
     tag: "v0.0.1-alpha.1"
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
