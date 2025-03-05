@@ -7,7 +7,7 @@ metadata:
 spec:
   interval: 5m0s
   timeout: 60s
-  url: https://github.com/kengou4/flux-demo
+  url: https://github.com/cloudoperators/greenhouse
   ref:
     # renovate: datasource=github-tags depName=cloudoperators/greenhouse
     tag: "v0.0.1-alpha.1"

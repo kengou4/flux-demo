@@ -4,6 +4,9 @@
     "extends": [
         "config:recommended"
     ],
+    "flux": {
+        "fileMatch": ["^.*/.*/flux-installation-relese\\.ya?ml$"]
+    },
     "customManagers": [
         {
             "customType": "regex",
@@ -15,18 +18,6 @@
                 "github.com.(?<packageName>.*).releases.download.(?<currentValue>.*)/"
             ],
             "datasourceTemplate": "github-tags"
-        },
-        {
-            "customType": "regex",
-            "description": "Bump flux kustomize version",
-            "fileMatch": [
-                "^.*/.*/flux-installation-relese\\.ya?ml$"
-            ],
-            "matchStrings": [
-                "# renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)\\s*tag:.\"(?<currentValue>.*)\""
-            ],
-            "versioningTemplate": "semver-coerced",
-            "datasourceTemplate": "github-releases"
         }
     ],
     "packageRules": [
