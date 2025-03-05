@@ -27,6 +27,7 @@
             ],
             "datasourceTemplate": "github-tags",
             "depNameTemplate": "cloudoperators/greenhouse",
+            "packageNameTemplate": "https://github.com/cloudoperators/greenhouse",
             "extractVersionTemplate": "^v(?<version>.*)$"
         }
     ],
