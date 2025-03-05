@@ -22,6 +22,7 @@
     ],
     "packageRules": [
         {
+            "description": "Update flux installation when a new release is available",
             "groupName": "flux-installation",
             "matchPackageNames": [
                 "cloudoperators/greenhouse"
